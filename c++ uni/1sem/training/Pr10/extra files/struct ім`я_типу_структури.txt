@@ -1,0 +1,172 @@
+ struct <ім`я_типу_структури>
+{
+<тип1> <поле1>;
+<тип2> <поле2>;
+. . .
+<типN> <полеN>;
+} <список_змінних>;
+
+struct sportsman
+{
+char prizv[15]; char kraina[10]; // Прізвище та країна,
+int vik; float ochki; // вік та кількість очок.
+};
+
+1.
+
+#include <iostream>
+using namespace std;
+
+struct Address {
+    string country;
+    string city;
+    string district;
+    string village;
+    string street;
+    int houseNumber;
+    int apartmentNumber;
+    int postalIndex;
+};
+
+int main() {
+    Address addresses[] = {
+        {"Ukraine", "Kyiv", "Shevchenkivskyi", "", "Khreshchatyk", 15, 101, 12345},
+        {"Ukraine", "Lviv", "Frankivskyi", "", "Svobody", 2, 5, 54321},
+        {"Ukraine", "Odessa", "Primorskyi", "", "Deribasivska", 10, 25, 11111}
+    };
+
+    int n = 3;
+    for (int i = 0; i < n - 1; ++i) {
+        for (int j = 0; j < n - i - 1; ++j) {
+            if (addresses[j].postalIndex > addresses[j + 1].postalIndex) {
+                Address temp = addresses[j];
+                addresses[j] = addresses[j + 1];
+                addresses[j + 1] = temp;
+            }
+        }
+    }
+
+    for (int i = 0; i < n; ++i) {
+        cout << addresses[i].postalIndex << ": " << addresses[i].city << ", " 
+             << addresses[i].street << " " << addresses[i].houseNumber << "/"
+             << addresses[i].apartmentNumber << "\n";
+    }
+
+    return 0;
+}
+
+2. 
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+struct Student {
+    int groupNumber;
+    string firstName;
+    string lastName;
+    string specialty;
+    bool isPayer; // true для платника, false для державника
+    double averageGrade;
+};
+
+int main() {
+    Student students[] = {
+        {101, "Ivan", "Petrenko", "Computer Science", true, 8.2},
+        {102, "Olha", "Shevchenko", "Mathematics", false, 7.5},
+        {103, "Andriy", "Koval", "Physics", true, 7.1},
+        {104, "Daria", "Kryvonos", "Engineering", true, 6.8},
+        {105, "Larysa", "Tymchuk", "Biology", false, 8.7}
+    };
+
+    int n = 5;
+
+    cout << "Payers with average grade > 7:\n";
+    for (int i = 0; i < n; ++i) {
+        if (students[i].isPayer && students[i].averageGrade > 7.0) {
+            cout << students[i].firstName << " " << students[i].lastName << " (Group: " 
+                 << students[i].groupNumber << ", Specialty: " << students[i].specialty 
+                 << ", Grade: " << students[i].averageGrade << ")\n";
+        }
+    }
+
+    return 0;
+}
+
+3. 
+#include <iostream>
+#include <string>
+using namespace std;
+
+struct Book {
+    string author;
+    string title;
+    int year;
+    int pageCount;
+};
+
+int main() {
+    Book books[] = {
+        {"Ivan Franko", "Zahar Berkut", 1883, 300},
+        {"Lesya Ukrainka", "Forest Song", 1911, 250},
+        {"Ivan Franko", "Thoughts on Life", 1890, 400},
+        {"Taras Shevchenko", "Kobzar", 1840, 500},
+        {"Lesya Ukrainka", "The Blue Rose", 1896, 150}
+    };
+
+    string maxAuthor = "";
+    int maxPages = 0;
+
+    for (int i = 0; i < 5; ++i) {
+        int totalPages = 0;
+        for (int j = 0; j < 5; ++j) {
+            if (books[i].author == books[j].author) {
+                totalPages += books[j].pageCount;
+            }
+        }
+        if (totalPages > maxPages) {
+            maxPages = totalPages;
+            maxAuthor = books[i].author;
+        }
+    }
+
+    cout << "Author with the most pages: " << maxAuthor << " (" << maxPages << " pages)\n";
+    return 0;
+}
+
+4.
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+struct Client {
+    string lastName;
+    string firstName;
+    string rentedItem;
+    string address;
+    string phoneNumber;
+};
+
+int main() {
+    Client clients[] = {
+        {"Ivanov", "Ivan", "Bike", "Khreshchatyk 15", "123456789"},
+        {"Petrov", "Petro", "Car", "Svobody 10", "987654321"},
+        {"Sydorenko", "Oksana", "Skates", "Khreshchatyk 20", "456789123"},
+        {"Shevchenko", "Olha", "Tent", "Lomonosova 3", "159753456"},
+        {"Koval", "Andriy", "Backpack", "Khreshchatyk 15", "951753258"}
+    };
+
+    string inputStreet;
+    cout << "Enter street to filter by: ";
+    getline(cin, inputStreet);
+
+    cout << "Clients living on " << inputStreet << ":\n";
+    for (int i = 0; i < 5; ++i) {
+        if (clients[i].address.find(inputStreet) != string::npos) {
+            cout << clients[i].lastName << " " << clients[i].firstName << "\n";
+        }
+    }
+
+    return 0;
+}

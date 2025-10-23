@@ -1,0 +1,51 @@
+#include <iostream>
+
+class Numbers {
+	double m_a;
+	double m_b;
+	double m_c;
+
+public:
+
+	void setValues(int a, int b, int c) {
+		m_a = a; m_b = b; m_c = c;
+	}
+
+	void print() {
+		std::cout << "<" << m_a << ", " << m_b << ", " << m_c << ">\n";
+	}
+
+	bool isEqual(Numbers number) {
+		return number.m_a == m_a && number.m_b == m_b && number.m_c == m_c;
+	}
+};
+
+int main()
+{
+	Numbers point;
+	point.setValues(3.0, 4.0, 5.0);
+
+	point.print();
+
+	Numbers point1;
+	point1.setValues(3.0, 4.0, 5.0);
+
+	Numbers point2;
+	point2.setValues(3.0, 4.0, 5.0);
+
+	if (point1.isEqual(point2))
+		std::cout << "point1 and point2 are equal\n";
+	else
+		std::cout << "point1 and point2 are not equal\n";
+
+	Numbers point3;
+	point3.setValues(7.0, 8.0, 9.0);
+
+	if (point1.isEqual(point3))
+		std::cout << "point1 and point3 are equal\n";
+	else
+		std::cout << "point1 and point3 are not equal\n";
+
+	system("pause");
+	return 0;
+}

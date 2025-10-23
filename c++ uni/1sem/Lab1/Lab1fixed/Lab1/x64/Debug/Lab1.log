@@ -1,0 +1,10 @@
+﻿  Lab1.cpp
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Lab1[1]\Lab1\Lab1.cpp(28,35): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Lab1[1]\Lab1\Lab1.cpp(28,17): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Lab1[1]\Lab1\Lab1.cpp(51,39): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Lab1[1]\Lab1\Lab1.cpp(51,17): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Lab1[1]\Lab1\Lab1.cpp(68,59): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Lab1[1]\Lab1\Lab1.cpp(68,17): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Lab1[1]\Lab1\Lab1.cpp(78,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Lab1[1]\Lab1\Lab1.cpp(79,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Lab1.vcxproj -> C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Lab1[1]\x64\Debug\Lab1.exe

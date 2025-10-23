@@ -1,0 +1,47 @@
+﻿  main.cpp
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Praktikum\n2\main.cpp(71,14): error C2039: 'vector': is not a member of 'std'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\numeric(22,1):
+      see declaration of 'std'
+  
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Praktikum\n2\main.cpp(71,26): error C2275: 'std::pair<std::string,int>': expected an expression instead of a type
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Praktikum\n2\main.cpp(71,51): error C2065: 'stats': undeclared identifier
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Praktikum\n2\main.cpp(77,13): error C2065: 'stats': undeclared identifier
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Praktikum\n2\main.cpp(80,19): error C2065: 'stats': undeclared identifier
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Praktikum\n2\main.cpp(80,34): error C2065: 'stats': undeclared identifier
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Praktikum\n2\main.cpp(80,14): error C2672: 'std::sort': no matching overloaded function found
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8401,6):
+      could be 'void std::sort(_ExPo &&,const _RanIt,const _RanIt) noexcept'
+          C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Praktikum\n2\main.cpp(80,14):
+          'void std::sort(_ExPo &&,const _RanIt,const _RanIt) noexcept': expects 3 arguments - 2 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8398,6):
+      or       'void std::sort(_ExPo &&,_RanIt,_RanIt,_Pr) noexcept'
+          C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Praktikum\n2\main.cpp(80,14):
+          'void std::sort(_ExPo &&,_RanIt,_RanIt,_Pr) noexcept': expects 4 arguments - 2 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8392,19):
+      or       'void std::sort(const _RanIt,const _RanIt)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\algorithm(8384,19):
+      or       'void std::sort(const _RanIt,const _RanIt,_Pr)'
+          C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Praktikum\n2\main.cpp(80,14):
+          'void std::sort(const _RanIt,const _RanIt,_Pr)': expects 3 arguments - 2 provided
+  
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Praktikum\n2\main.cpp(85,52): error C2065: 'stats': undeclared identifier
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Praktikum\n2\main.cpp(85,37): error C2672: 'std::min': no matching overloaded function found
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(105,26):
+      could be '_Ty std::min(std::initializer_list<_Elem>)'
+          C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Praktikum\n2\main.cpp(85,37):
+          '_Ty std::min(std::initializer_list<_Elem>)': could not deduce template argument for 'std::initializer_list<_Elem>' from 'size_t'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(102,26):
+      or       '_Ty std::min(std::initializer_list<_Elem>,_Pr)'
+          C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Praktikum\n2\main.cpp(85,37):
+          '_Ty std::min(std::initializer_list<_Elem>,_Pr)': expects 2 arguments - 1 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(95,6):
+      or       'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)'
+          C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Praktikum\n2\main.cpp(85,37):
+          'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': expects 2 arguments - 1 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(85,33):
+      or       'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)'
+          C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Praktikum\n2\main.cpp(85,37):
+          'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)': expects 3 arguments - 1 provided
+  
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Praktikum\n2\main.cpp(86,26): error C2065: 'stats': undeclared identifier
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\Praktikum\n2\main.cpp(86,52): error C2065: 'stats': undeclared identifier

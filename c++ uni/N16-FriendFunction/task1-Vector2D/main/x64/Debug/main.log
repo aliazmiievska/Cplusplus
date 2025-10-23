@@ -1,0 +1,5 @@
+﻿  main.cpp
+  methods.cpp
+C:\Users\tttro\OneDrive\Docs\uni\c++\main\methods.cpp(46,46): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  main.vcxproj -> C:\Users\tttro\OneDrive\Docs\uni\c++\main\x64\Debug\main.exe

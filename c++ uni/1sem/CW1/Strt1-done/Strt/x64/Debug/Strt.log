@@ -1,0 +1,4 @@
+﻿  Strt.cpp
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\CW1\Strt1\Strt.cpp(19,27): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\CW1\Strt1\Strt.cpp(24,27): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Strt.vcxproj -> C:\Users\tttro\OneDrive\Docs\uni\c++\c++ uni\CW1\Strt1\x64\Debug\Strt.exe

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tttro\\OneDrive\\Docs\\uni\\c\u002B\u002B\\c\u002B\u002B uni\\Lab4\\lab4-2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10032923-B4F0-4C14-92B1-E3C2BCA8AE90}|index.vcxproj|C:\\Users\\tttro\\OneDrive\\Docs\\uni\\c\u002B\u002B\\c\u002B\u002B uni\\Lab4\\lab4-2\\index.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10032923-B4F0-4C14-92B1-E3C2BCA8AE90}|index.vcxproj|solutionrelative:index.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.cpp",
+              "DocumentMoniker": "C:\\Users\\tttro\\OneDrive\\Docs\\uni\\c\u002B\u002B\\c\u002B\u002B uni\\Lab4\\lab4-2\\index.cpp",
+              "RelativeDocumentMoniker": "index.cpp",
+              "ToolTip": "C:\\Users\\tttro\\OneDrive\\Docs\\uni\\c\u002B\u002B\\c\u002B\u002B uni\\Lab4\\lab4-2\\index.cpp",
+              "RelativeToolTip": "index.cpp",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwC0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-28T07:40:57.49Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

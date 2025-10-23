@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ self\28.12-N2acode\test\calc\main.cpp(21,9): warning C4551: function call missing argument list
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ self\28.12-N2acode\test\calc\main.cpp(26,6): warning C4551: function call missing argument list
+  main.vcxproj -> C:\Users\tttro\OneDrive\Docs\uni\c++\c++ self\28.12-N2acode\test\calc\x64\Debug\main.exe

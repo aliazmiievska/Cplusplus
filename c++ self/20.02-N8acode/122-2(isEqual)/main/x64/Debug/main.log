@@ -1,0 +1,14 @@
+﻿  main.cpp
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ self\20.02-N8acode\122-2()\main.cpp(26,28): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ self\20.02-N8acode\122-2()\main.cpp(26,23): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ self\20.02-N8acode\122-2()\main.cpp(26,18): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ self\20.02-N8acode\122-2()\main.cpp(31,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ self\20.02-N8acode\122-2()\main.cpp(31,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ self\20.02-N8acode\122-2()\main.cpp(31,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ self\20.02-N8acode\122-2()\main.cpp(34,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ self\20.02-N8acode\122-2()\main.cpp(34,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ self\20.02-N8acode\122-2()\main.cpp(34,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ self\20.02-N8acode\122-2()\main.cpp(42,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ self\20.02-N8acode\122-2()\main.cpp(42,24): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\tttro\OneDrive\Docs\uni\c++\c++ self\20.02-N8acode\122-2()\main.cpp(42,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  main.vcxproj -> C:\Users\tttro\OneDrive\Docs\uni\c++\c++ self\20.02-N8acode\122-2()\x64\Debug\main.exe
