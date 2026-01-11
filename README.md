@@ -8,8 +8,11 @@ This repository contains materials, lab work, and code examples for the **C++ co
 ## 📁 Repository Structure
 
 /
+
 ├── 📚 c++ uni/        — University assignments
+
 ├── 🧪 c++ self/       — Self-practice and experiments
+
 └── README.md          — This file
 
 other files are not important or usefull
