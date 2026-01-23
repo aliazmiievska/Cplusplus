@@ -26,17 +26,13 @@ other files are not important or usefull
 
 ### 🔹 Running code
 
-1. Clone the repository:
-   git clone https://github.com/aliazmiievska/Cplusplus.git
+1. Make sure Visual Studio is installed (search "visual studio community edition" to download)
 
-2. Navigate to a code folder:
-   cd Cplusplus/<folder>
+2. Clone the repository using GitHub Desktop or your terminal
 
-3. Compile (example: main.cpp):
-   g++ -std=c++17 main.cpp -o main
+3. Open the projekt you want to execute in your file manager
 
-4. Execute:
-   ./main
+4. Double click .sln file (choose to open in visual studio)
 
 ---
 
