@@ -18,7 +18,6 @@ This repository contains materials, lab work, and code examples for the **C++ co
 Writed code locates in .cpp files
 
 other files are not important or usefull
-(it's the only sentence i wrote by myself, the whole readme was made by chatgpt)
 
 ---
 
